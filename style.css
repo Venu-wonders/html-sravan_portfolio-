@@ -1,0 +1,147 @@
+#dp {
+    display: flex;
+    border:20px  solid rgb(56, 75, 112);
+    background-color: rgb(252, 250, 238);
+    gap: 20px;
+    padding: 10px;
+    align-items:center;
+}
+
+
+#dp2 {
+    flex-shrink:0;
+}
+
+#dp1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#dp1 h1, #dp1 h6 {
+    margin: 0px;
+    text-align: left;
+    border: 0px;
+}
+#img1 {
+    height: 100px;
+    width: 100px;
+  
+}
+
+#img2 {
+    height: 300px;
+    width: 400px;
+}
+
+#fam {
+    display:flex;
+    text-align: center;
+    gap: 100px;
+}
+
+
+#fam,#det {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px; 
+    padding: 20px ;
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 80%; 
+  
+}
+
+body > h1 {
+    text-align: center;
+   
+}
+
+#nmcol {
+    color: darkblue
+}
+
+
+#imgjun {
+    width: 300px;
+}
+
+ #det1, #eduimg {
+    display: flex;
+     gap: 100px ;
+    align-items: center;
+    justify-content: center; 
+      
+    background-color: rgb(236, 223, 204); 
+}
+
+#wk1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#wk2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(171, 186, 124);
+    width: 80%;
+    margin: 0% auto;
+
+}
+
+#lvgimg {
+    height: 200px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+#ash {
+    text-align: center;
+    border: 10px solid rgb(255, 69, 69);
+    background-color: rgb(205, 193, 255);
+}
+
+body {
+   background-color:rgb(184, 0, 31);
+} 
+
+
+#eduh{
+    text-align: center;
+    border: 10px solid red;
+    background-color: rgb(60, 61, 55);
+    color: white;
+}
+
+ #wkh{
+    text-align: center;
+    border: 10px solid red;
+    background-color: rgb(222, 229, 212);
+    color:rgb(0, 106, 103);
+}
+
+body > h1 {
+    color: white;
+}
+
+#id1 {
+    color: rgb(9, 16, 87);
+}
+
+#edu1 {
+    color: rgb(0, 11, 88);
+}
+
+#wkn {
+    color:rgb(19, 62, 135) ;
+}
